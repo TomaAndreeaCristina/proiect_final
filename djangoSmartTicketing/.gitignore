@@ -58,7 +58,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
+/db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
@@ -160,5 +160,4 @@ cython_debug/
 .idea/
 /.idea/vcs.xml
 /home/migrations/*
-db.sqlite3
 /ticketing_soft/migrations/*
