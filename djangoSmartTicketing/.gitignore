@@ -163,3 +163,4 @@ cython_debug/
 /home/migrations/*
 /ticketing_soft/migrations/*
 .idea/misc.xml
+/servicii/migrations/
