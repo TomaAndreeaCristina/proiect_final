@@ -1,6 +1,27 @@
 from django.shortcuts import render
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView
+
+from ticket.forms import TicketForm
+from ticket.models import TicketModel, UserTicketModel
+
 
 # Create your views here.
+class TicketListView(DetailView):
+    template_name = 'ticket/detalii.html'
+    model = TicketModel
+
+
+
+class UserTicketListView(DetailView):
+    template_name = 'ticket/detalii_ticket.html'
+    model = UserTicketModel
+
+
+
+class TicketDetailsView(DetailView):
+    template_name = 'ticket/detalii.html'
+    model = TicketModel
 from django.shortcuts import render
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, UpdateView, DeleteView, CreateView
