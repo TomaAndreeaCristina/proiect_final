@@ -1,3 +1,4 @@
+from django.contrib.auth.models import User
 from django.db import models
 
 
@@ -8,6 +9,7 @@ class TicketModel(models.Model):
     nume_user = models.CharField(max_length=50, null=False)
     descriere_ticket = models.CharField(max_length=1000, null=False)
     status_ticket = models.CharField(max_length=50, null=False)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, null=True)
 
     # servicii = models.ForeignKey('ServiciiModel', on_delete=models.DO_NOTHING)
     def __str__(self):
@@ -15,7 +17,7 @@ class TicketModel(models.Model):
 
 
 class UserTicketModel(models.Model):
-    ticket = models.ForeignKey(TicketModel, on_delete=models.CASCADE)
+    ticket = models.ForeignKey(TicketModel, on_delete=models.CASCADE, null=True)
     nume_user = models.CharField(max_length=50, null=False)
     data_inregistrare_user_ticket = models.CharField(max_length=50, null=False)
     data_inchidere_user_ticket = models.CharField(max_length=1000, null=False)

@@ -9,12 +9,17 @@ class CreateTicketView(CreateView):
     model = TicketModel
     form_class = TicketForm
     template_name = 'create_update_form.html'
-    success_url = reverse_lazy('Tickets-all')
+    success_url = reverse_lazy('ticket-all')
 
 
 class UserTicketListView(ListView):
-    template_name = 'ticket/detalii_ticket.html'
+    template_name = 'ticket/user_tickets.html'
     model = UserTicketModel
+
+    def get_context_data(self, **kwargs):
+        data = super(UserTicketListView, self).get_context_data()
+        data['tickets'] = TicketModel.objects.filter(user_id=1)
+        return data
 
 
 class TicketDetailsView(DetailView):
