@@ -1,8 +1,9 @@
 from django.urls import path
-from servicii.views import  ServiciiDetaislView, ServiciiUpdateView,ServiciiCreateView,ServiciiDeleteView
-from ticket.views import TicketListView, TicketDetailsView
+from servicii.views import ServiciiUpdateView, ServiciiCreateView, ServiciiDeleteView
+from ticket.views import TicketDetailsView, UserTicketListView
+
 
 urlpatterns = [
-    path('', TicketListView.as_view(), name='Tickets-all'),
+    path('', UserTicketListView.as_view(), name='Tickets-all'),
     path('detail/<int:pk>', TicketDetailsView.as_view(), name='Ticket-detail'),
 ]

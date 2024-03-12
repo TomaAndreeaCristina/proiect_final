@@ -6,4 +6,5 @@ from ticket.models import TicketModel
 class TicketForm(ModelForm):
     class Meta:
         model = TicketModel
-        fields = '__all__'
+        fields = "__all__"
+

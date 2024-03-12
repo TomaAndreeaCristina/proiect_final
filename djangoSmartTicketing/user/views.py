@@ -15,7 +15,7 @@ from user.models import UserModel
 
 class UserListView(ListView):
     template_name = 'user/all.html'
-    model = ServiciiModel
+    model = UserModel
 
 
 class UserDetaislView(DetailView):

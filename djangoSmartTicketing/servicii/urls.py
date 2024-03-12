@@ -5,7 +5,7 @@ urlpatterns = [
     path('', ServiciiListView.as_view(), name='serviciu-all'),
     path('detail/<int:pk>', ServiciiDetaislView.as_view(), name='serviciu-detail'),
     path('update/<int:pk>', ServiciiUpdateView.as_view(), name='serviciu-update'),
-    path('create/<int:pk>',ServiciiCreateView.as_view(), name='serviciu-create'),
+    path('create/',ServiciiCreateView.as_view(), name='serviciu-create'),
     path('delete/<int:pk>',ServiciiDeleteView.as_view(), name='serviciu-delete')
 ]
 

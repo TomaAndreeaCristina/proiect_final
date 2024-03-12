@@ -13,3 +13,4 @@ class UserModel(models.Model):
 
     def __str__(self):
         return f"{self.nume_user} - {self.prenume_user} - {self.nume_societate} - "
+
