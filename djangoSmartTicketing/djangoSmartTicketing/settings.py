@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'home',
     'servicii',
     'user',
-    'ticket'
+    'ticket',
+    'authentication',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +54,10 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'djangoSmartTicketing.urls'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGIN_URL = 'login'
+LOGOUT_REDIRECT_URL = 'home'
 
 TEMPLATES = [
     {
