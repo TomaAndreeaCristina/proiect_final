@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.9" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1884" dy="530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -293,12 +293,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="e0RARnnWDdUFts4xzZ2r" name="Page-2">
-    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="530" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="261" y="70" as="geometry" />
+          <mxGeometry height="60" width="120" x="283" y="410" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" value="" vertex="1">
           <mxGeometry height="60" width="120" x="173" y="599" as="geometry" />
@@ -352,13 +352,13 @@
           <mxGeometry height="60" width="120" x="143" y="869" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" value="KSR/SH-DM8-100" vertex="1">
-          <mxGeometry height="30" width="90" x="276" y="70" as="geometry" />
+          <mxGeometry height="30" width="90" x="298" y="410" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-20" edge="1" parent="1" source="z4Ic3to2xiAx-d_yzZXQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="z4Ic3to2xiAx-d_yzZXQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="MASINA INDREPTAT KIESERLING&amp;nbsp;" vertex="1">
-          <mxGeometry height="60" width="190" x="11" y="70" as="geometry">
+          <mxGeometry height="60" width="190" x="33" y="410" as="geometry">
             <mxRectangle height="30" width="60" x="-60" y="85" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -458,8 +458,8 @@
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-49" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;TABLET4&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="930" y="395" as="geometry" />
         </mxCell>
-        <mxCell id="z4Ic3to2xiAx-d_yzZXQ-50" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" value="ZONE PACKAGING FOR CUTTING BARS" vertex="1">
-          <mxGeometry height="180" width="150" x="552" y="330" as="geometry" />
+        <mxCell id="z4Ic3to2xiAx-d_yzZXQ-50" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#33FFFF;strokeColor=#36393d;" value="ZONE PACKAGING FOR CUTTING BARS" vertex="1">
+          <mxGeometry height="180" width="150" x="550" y="320" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-51" parent="z4Ic3to2xiAx-d_yzZXQ-50" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;WE NEED TABLET&lt;/b&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="130" x="5" y="40" as="geometry" />
@@ -591,7 +591,7 @@
           <mxGeometry height="30" width="60" x="790" y="100" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-94" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;TRS232&lt;/b&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="292" y="130" as="geometry" />
+          <mxGeometry height="30" width="60" x="313" y="470" as="geometry" />
         </mxCell>
         <mxCell id="z4Ic3to2xiAx-d_yzZXQ-95" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;TRS106&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="925" y="100" as="geometry" />
